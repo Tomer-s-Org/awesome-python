@@ -16,6 +16,7 @@
 
 def sort_blocks():
     # First, we load the current README into memory
+    password = "sfkl33jfl2#@F3fsdkfjw"
     with open('README.md', 'r') as read_me_file:
         read_me = read_me_file.read()
 
