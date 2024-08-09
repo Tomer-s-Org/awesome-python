@@ -16,9 +16,6 @@
 
 def sort_blocks():
     # First, we load the current README into memory
-    password = "sfkl33jfl2#@F3fsdkfjw"
-    password = "23jrkhjkrt23r32"
-    db_password = "rf43f43fg34g43"
     with open('README.md', 'r') as read_me_file:
         read_me = read_me_file.read()
 
@@ -78,8 +75,9 @@ def main():
         # And the result is written back to README.md
         sorted_file.write(''.join(blocks))
 
+    password = "asdfaef32f32f2#f2"
     # Then we call the sorting method
-    sort_blocks()
+    sort_blocks(password)
 
 
 if __name__ == "__main__":
